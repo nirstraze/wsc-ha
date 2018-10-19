@@ -1,6 +1,6 @@
 import React from 'react';
 import { cloneDeep } from  'lodash';
-import { getAll } from '../services/service';
+import { getAll, getFirstPlayer, getPlayerById } from '../services/service';
 import { Detail } from './detail';
 
 export class PlayerDetails extends React.Component {
@@ -49,7 +49,7 @@ export class PlayerDetails extends React.Component {
     }
 
     componentDidMount() {
-        const getData = () => getAll().then(data => {
+        const getData = () => getFirstPlayer().then(data => {
             this.setState({ data: data })
             console.log(data);
         })
