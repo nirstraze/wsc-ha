@@ -1,0 +1,28 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif
+}
+
+.details-text{
+    display: flex;
+}
+
+.description{
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.image{
+    width: 300px;
+    margin: 5px;
+}
+
+.bullet-square{
+    width: 20px;
+    height: 20px;
+    background-color: dodgerblue;    
+    margin-right: 5px;
+}
