@@ -1,0 +1,19 @@
+.save-button{
+    background-color: cornflowerblue;
+    color: white;
+    width: 200px;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 100px;
+    font-family: sans-serif;  
+    text-align: center;      
+    vertical-align: middle;
+    cursor: pointer; 
+    font-weight: bold; 
+    border-radius: 5px;    
+}
+
+.save-button:hover{
+    border: 1px solid darkblue;
+    box-sizing: border-box;
+}

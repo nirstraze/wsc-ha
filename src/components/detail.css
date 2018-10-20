@@ -16,8 +16,13 @@
 }
 
 .image{
-    width: 300px;
+    width: 200px;
     margin: 5px;
+}
+
+.video{
+    width: "300";
+    height:"200";
 }
 
 .bullet-square{
